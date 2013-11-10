@@ -54,7 +54,7 @@ Una vez montados dichos sistemas, procedemos a la instalación de todos los paqu
 > apt-get install python-mako
 > ```
 
-A la hora de la instalación del paquete “python-web2py” me salta un error de que el paquete no funciona perfectamente. Para solucionar este error lo que he realizado ha sido bajarme dicho paquete de los repositorios de GitHub e instalarlo de dicho repositorio. Las ordenes para dicho proceso son las siguientes:
+A la hora de la instalación del paquete “python-web2py” me salta un error de que el paquete no funciona perfectamente. Para solucionar este error lo que he realizado ha sido bajarme dicho paquete de los repositorios de GitHub e instalarlo de dicho repositorio. Las órdenes para dicho proceso son las siguientes:
 
 > ```
 > apt-get install git
