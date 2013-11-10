@@ -1,0 +1,18 @@
+## -*- coding: utf-8 -*-
+
+<html lang="es">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<link rel="stylesheet" type="text/css" href="/static/index.css"/>
+		<link rel="Shortcut Icon" type="image/x-icon" href="/static/iv.png"/>
+		<title>Práctica 2 de IV</title>
+	</head>
+	<body>
+		<section id="cabecera">
+			<img id="logo" src="/static/ugr.jpg" alt="Logo" />
+			<header>Práctica 2 de IV</header>
+			<p id="subtitulo">Página para guardar, visualizar, modificar los datos de los alumnos de la asignatura de IV</p>
+			% if usuario:
+				<p id="formu">Bienvenido <b>${usuario}</b> </p>
+			% endif
+

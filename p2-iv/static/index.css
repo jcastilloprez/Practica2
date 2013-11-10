@@ -1,0 +1,103 @@
+html{
+	font-family:Arial, "MS Trebuchet", sans-serif;
+	color:black;
+}
+header{
+	font-style:italic;
+	font-weight:bold;
+	font-size:500%;
+	text-transform:uppercase;
+	color:red;
+}
+#cabecera{
+	background-color:yellow;
+	text-align:center;
+	height:205px;
+}
+#logo{
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+#for{
+	position:absolute;
+	top:110px;
+	right:10px;
+}
+#subtitulo{
+	color:#D3D3D3;
+	font-size:95%;
+}
+#formu{
+	text-align:right;
+	padding-right:1%
+}
+a.regis:link{
+	color:black;
+	text-decoration:none;
+}
+a.regis:visited{
+	color:black;
+	text-decoration:none;
+}
+a.regis:hover{
+	text-decoration:none;
+}
+#rows1{
+	background-color:green;
+	width:250px;
+	float:left;
+	height:441px;
+}
+#tit{
+	padding-left:1%; 
+	color:#FF1493; 
+	font-weight:bold; 
+	font-size:125%;
+}
+ul{
+	list-style:none; 
+	font-size:110%;
+}
+a.seccion:link{
+	color:orange;
+	text-decoration:none; 
+}
+a.seccion:visited{
+	color:orange;
+	text-decoration:none;
+}
+a.seccion:hover{
+	text-decoration:underline;
+}
+#rows2{
+	float:left;
+	background-color:papayawhip; 
+	width:1022px;
+	height:440px;
+}
+#vacio{
+	height:393px;
+	color:#B22222;
+	font-size:150%;
+	font-weight:bold; 
+	text-transform:uppercase;
+	padding-left:1%;
+}
+#mensaje{
+	color:red;
+	font-size:140%;
+}
+#vis{
+	color:#8B008B;
+	padding-left:1%;
+	font-size:135%;
+}
+#note{
+	padding-left:1%;
+	height:425px;
+}
+footer{
+	background-color:#A9A9A9;
+	clear:left;
+}

@@ -1,0 +1,32 @@
+## -*- coding: utf-8 -*-
+
+<%include file="header.html"/> 
+
+			% if mensaje:
+				<span id="mensaje"> ${mensaje} </span>
+			% endif
+
+			<form id="for" method="post">
+				${formi.render()}
+			</form>
+		</section>
+		<section id="rows1">
+			<p id="tit">Menú de páginas: </p>
+			<ul>
+				<li><a class="seccion" href="/">Página Inicial</a></li>
+			</ul>
+		</section>
+		<section id="rows2">
+			<p id="vis">Nick de Github: ${nick}</p>
+			<p id="vis">Nombre de alumno: ${nombre}</p>
+			<p id="vis">Apellidos del alumno: ${apellidos}</p>
+			<p id="vis">DNI del alumno: ${dni}</p>
+			<p id="vis">Correo del alumno: ${correo}</p>
+			<p id="vis">Fecha de nacimiento del alumno: ${nacimiento}</p>
+		</section>
+		<footer>
+			<p>Nombre del autor: <em>José Manuel Castillo Pérez</em></p>
+			<p>Esta página está registrada bajo licencia GNU GENERAL PUBLIC LICENSE Version 3</p>
+		</footer>
+	</body>
+</html>

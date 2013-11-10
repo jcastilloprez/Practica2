@@ -1,0 +1,25 @@
+## -*- coding: utf-8 -*-
+
+<%include file="header.html"/> 
+
+			<p id="formu"><a class="regis" href="/logout"><input type="button" value="Cerrar sesión"/></a></p>
+		</section>
+		<section id="rows1">
+			<p id="tit">Menú de páginas: </p>
+			<ul>
+				<li><a class="seccion" href="/registro">Página Inicial</a></li><br>
+				<li><a class="seccion" href="/datos">Visualizar datos de alumno</a></li><br>
+				<li><a class="seccion" href="/modificar">Modificar datos de alumno</a></li>
+			</ul>
+		</section>
+		<section id="rows2">
+			<form id="note" method="post">
+				${form.render()}
+			</form>
+		</section>
+		<footer>
+			<p>Nombre del autor: <em>José Manuel Castillo Pérez</em></p>
+			<p>Esta página está registrada bajo licencia GNU GENERAL PUBLIC LICENSE Version 3</p>
+		</footer>
+	</body>
+</html>

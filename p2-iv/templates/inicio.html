@@ -1,0 +1,31 @@
+## -*- coding: utf-8 -*-
+
+<%include file="header.html"/> 
+
+			% if menssage:
+				<span id="mensaje"> ${menssage} </span>
+			% endif
+
+			<form id="for" method="post">
+				${formi.render()}
+			</form>
+		</section>
+		<section id="rows1">
+			<p id="tit">Menú de páginas: </p>
+			<ul>
+				<li><a class="seccion" href="/alumno">Visualizar datos de alumno</a></li>
+			</ul>
+		</section>
+		<section id="rows2">
+				% if mensaje:
+					<p id="vacio"> ${mensaje} </p>
+				% else:
+					<p id="vacio"></p>
+				% endif
+		</section>
+		<footer>
+			<p>Nombre del autor: <em>José Manuel Castillo Pérez</em></p>
+			<p>Esta página está registrada bajo licencia GNU GENERAL PUBLIC LICENSE Version 3</p>
+		</footer>
+	</body>
+</html>

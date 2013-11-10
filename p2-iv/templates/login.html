@@ -1,0 +1,27 @@
+## -*- coding: utf-8 -*-
+
+<%include file="header.html"/> 
+
+			% if mensaje:
+				<span id="mensaje"> ${mensaje} </span>
+			% endif
+
+			<form id="for" method="post">
+				${form.render()}
+			</form>
+		</section>
+		<section id="rows1">
+			<p id="tit">Menú de páginas: </p>
+			<ul>
+				<li><a class="seccion" href="/alumno">Ver datos de alumno</a></li><br>
+			</ul>
+		</section>
+		<section id="rows2">
+			<p id="vacio">Si quiere insertar datos o modificar datos, por favor pongase en contacto con el administrador de este sistema</p>
+		</section>
+		<footer>
+			<p>Nombre del autor: <em>José Manuel Castillo Pérez</em></p>
+			<p>Esta página está registrada bajo licencia GNU GENERAL PUBLIC LICENSE Version 3</p>
+		</footer>
+</body>
+</html>
