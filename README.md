@@ -94,4 +94,12 @@ Si deseamos registrar un nuevo alumno, lo único que tiene que hacer el administ
 
 Si por el contrario, lo que queremos es que el administrador modifique los datos de un alumno, lo que tiene que hacer es insertar el nick de GitHub de dicho alumno
 
+![Práctica 2 - Foto 11](http://ubuntuone.com/3d9a4NtM9UhPLB7PaXKBjn)
 
+y modificar el formulario que aparece relleno con los datos de dicho alumno.
+
+![Práctica 2 - Foto 12](http://ubuntuone.com/6lIokFhZycK4wej0grcjpX)
+
+Si volvemos a visualizar los datos de dicho alumno podemos apreciar que los cambios han sido aceptados.
+
+![Práctica 2 - Foto 13](http://ubuntuone.com/4CaviafA7x4q82a3j5ZKDV)
